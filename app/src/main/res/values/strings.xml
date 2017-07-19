@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AirDialog</string>
+    <string name="ignore">忽略</string>
+    <string name="remind_later">稍后提醒</string>
+    <string name="confirm">确定</string>
+    <string name="know">知道了</string>
+    <string name="done">完成</string>
+    <string name="delete">删除</string>
+    <string name="login">登录</string>
+    <string name="low_storage_warning_message">存储空间不足，是否允许系统自动清空缓存</string>
+    <string name="allow">允许</string>
+    <string name="manual_clean">手动清理</string>
+</resources>

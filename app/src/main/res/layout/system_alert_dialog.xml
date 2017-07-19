@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:clipChildren="false"
+    android:layout_height="250dp"
+    android:background="@color/system_dialog_bg">
+    <ImageView
+        android:id="@+id/iv_blur"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <FrameLayout
+        android:id="@+id/ll_pop_dialog_content_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+        <TextView
+            android:id="@+id/tv_pop_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@id/ll_pop_dialog_content_bg"
+            android:layout_marginTop="71.5dp"
+            android:textSize="24sp"
+            android:textColor="@color/text_white"
+            />
+        <View
+            android:id="@+id/pop_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/dialog_divider"
+            android:layout_marginTop="299dp"
+            />
+    <View
+        android:id="@+id/pop_line_vertical"
+        android:layout_below="@id/pop_line"
+        android:layout_marginTop="0.5dp"
+        android:layout_width="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp"
+        android:background="@drawable/dialog_divider_vertical"
+        />
+<LinearLayout
+    android:layout_alignTop="@id/pop_line"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_pop_left"
+        style="@style/dialog_bottom_tv_style" />
+    <TextView
+        android:id="@+id/tv_pop_right"
+        style="@style/dialog_bottom_tv_style" />
+</LinearLayout>
+
+</RelativeLayout>
